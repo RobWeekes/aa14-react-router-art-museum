@@ -2,17 +2,17 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import harvardArt from './data/harvardArt';
 import GalleryNavigation from './components/GalleryNavigation';
 
-console.log(harvardArt);
+// console.log('harvardArt:', harvardArt);
 
 const router = createBrowserRouter([
   {
     path: '/',
     element:
-    <>
-      <h2>Hardvard Art Museum</h2>
-      <p>Look, but Don&apos;t Touch. Please select a Gallery in the navigation bar.</p>
-      <GalleryNavigation />
-    </>
+      <>
+        <h2>Hardvard Art Museum</h2>
+        <p>Look, but Don&apos;t Touch. Please select a Gallery in the navigation bar.</p>
+        <GalleryNavigation galleries={harvardArt.records} />
+      </>
   },
   {
     path: 'galleries',
