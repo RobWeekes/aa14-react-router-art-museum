@@ -8,7 +8,7 @@ function GalleryView({ galleries }) {
     ))
 
     if(!gallery) {
-        
+        return <Navigate to='/' replace={true} />
     }
 
     // console.log('galleryId:', galleryId);
