@@ -17,7 +17,6 @@ function GalleryNavigation(props) {
           {gallery.name}
         </NavLink>
       ))}
-
     </nav>
   )
 }

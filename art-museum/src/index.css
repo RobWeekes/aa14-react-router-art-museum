@@ -1,1 +1,22 @@
 /* TODO: Add sitewide styles */
+
+nav a {
+  margin-right: 10px;
+}
+
+div {
+  margin: 10px 10px 10px 10px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.technique {
+  font-size: 13px;
+  color: darkblue;
+}
+
+.credit {
+  font-size: 10px;
+}
